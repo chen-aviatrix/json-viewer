@@ -1,0 +1,60 @@
+{
+    "name": "brush-gcp1-2r-transit-gw_52.62.170.85_13.237.9.127",
+    "number_of_peers": 2,
+    "peer_gw": "52.62.170.85_13.237.9.127",
+    "peer_type": "s2c_extern",
+    "routing_mode": null,
+    "site_1": {
+        "gateway": [
+            "brush-gcp1-2r-transit-gw",
+            "brush-gcp1-2r-transit-gw-hagw"
+        ],
+        "name": "brush-gcp1-2r-transit-gw"
+    },
+    "site_2": {
+        "gateway": [
+            "52.62.170.85",
+            "13.237.9.127"
+        ],
+        "name": [
+            "52.62.170.85",
+            "13.237.9.127"
+        ]
+    },
+    "tunnels": [
+        {
+            "gateway_1": "brush-gcp1-2r-transit-gw",
+            "gateway_2": "52.62.170.85",
+            "modified": 1590023702.7422,
+            "name": "brush-gcp1-2r-transit-gw_52.62.170.85",
+            "rx_bytes": null,
+            "state": "Up",
+            "timestamp": 1590023702.7422,
+            "tx_bytes": null
+        },
+        {
+            "modified": 1590023712.91,
+            "name": "brush-gcp1-2r-transit-gw_13.237.9.127",
+            "rx_bytes": null,
+            "state": "Up",
+            "timestamp": 1590023712.91,
+            "tx_bytes": null
+        },
+        {
+            "modified": 1590023237.8176,
+            "name": "brush-gcp1-2r-transit-gw-hagw_52.62.170.85",
+            "rx_bytes": null,
+            "state": "Up",
+            "timestamp": 1590023237.8176,
+            "tx_bytes": null
+        },
+        {
+            "modified": 1590023207.7239,
+            "name": "brush-gcp1-2r-transit-gw-hagw_13.237.9.127",
+            "rx_bytes": null,
+            "state": "Up",
+            "timestamp": 1590023207.7239,
+            "tx_bytes": null
+        }
+    ]
+}
